@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(10, 9, 9);
+}
+
+header{
+    display: flex;
+    color: white;
+    gap: 14rem;
+    align-items: center;
+    padding: 7px;
+    font-size: 10px;
+}
+
+.logo{
+    margin-left:6.5rem;
+
+}
+
+.navbar ul{
+    display: flex;
+    gap: 5rem;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: dodgerblue;
+}
+
+.btn button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn  .reg{
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn  .reg:hover{
+    background-color: rgb(10, 55, 100);
+}
+
+.btn .log{
+    background-color: rgb(6, 43, 80);
+    color: white;
+}
+
+.btn .log:hover{
+    background-color: dodgerblue;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 7rem;
+    margin-top: 80px;
+}
+
+.txt{
+    color: white;
+    font-size: 30px;
+}
+
+.para{
+    color: white;
+}
+
+.start button{
+    padding: 10px 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.start button:hover{
+    background-color: rgb(7, 56, 105);
+}
+
+.start{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.start p{    
+    color: white;
+}
+
+
+
+
